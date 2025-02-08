@@ -1,0 +1,134 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    max-height: 70px;
+}
+.logo .fa-spotify{
+    font-size: 2rem;
+    margin-left: 10px;
+}
+.logo .fa-spotify:hover{
+    color: #008607;
+    transition: all 400ms;
+}
+.header__navigation{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 12px;
+}  
+.header__navigation .home .fa-house{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    background-color: #121212;
+    padding: 10px;
+    color: #6a6a6a;
+}
+.header__navigation .home .fa-house:hover{
+    color: #fff;
+    transition: 400ms;
+}
+.header__search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 380px;
+    height: 48px;
+    margin-left: 8px;
+    border-radius: 500px;
+    background-color: #121212;
+    border: 1px solid transparent;
+    color: #242424;
+}
+.header__search-input:focus, .header__search:hover{
+    background-color: #242424;
+    color:#fff;
+}
+.header__search:hover{
+    background-color: #242424;
+    border: 1px solid #f1f1f1;
+    color:#f1f1f1;
+    transition: 700ms;
+}
+.header__search input{
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 10px;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}  
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 1px solid #6a6a6a;
+}
+.links a{
+    font-weight: 400;
+    padding: 10px;
+    color: #a7a7a7;
+}
+.links a:hover{
+    padding: 10px;
+    color:#fff;
+    scale: 1.2;
+    transition: all 600ms;
+}
+.download{
+    display: flex; 
+}
+.download .download__app{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    text-transform: none;
+    background-color: transparent;
+    border: none;
+    color: #6a6a6a;
+}
+.download .download__app:hover{
+    color: #fff;
+    scale: 1.1;
+    transition: 200ms;
+}
+.header__login{
+    display: flex;
+}
+.header__login .subscribe{
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+}
+.header__login .subscribe:hover{
+    color: #fff;
+}  
+.header__login .login{
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+}
+.header__login .login:hover{
+    width: 100px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    color: #fff;
+    background-color: #242424;
+}
