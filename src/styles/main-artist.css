@@ -6,10 +6,112 @@
     color: #fff;
 }
 .artist-banner{
+    background: url(../assets/artist-icons/ab67618600000194843651d57d42aca72ce77570.webp);
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 20px;
     flex-shrink: 1;
     flex-grow: 1;
-
+    margin-top: 5px;
+    height: 30vh;
+    padding: 10px;
+}
+.artist-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-container .medias{
+    display: flex;
+    gap: 30px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+.main-container .medias{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.follow{
+    color: #a7a7a7;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+}
+.follow:hover{
+    border: 1px solid #f1f1f1;
+    color:#f1f1f1;
+    transition: 500ms;
+    scale: 1.1;
+}
+.fa-play{
+    background-color: rgb(66, 175, 66);
+    padding: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fa-play:hover{
+    scale: 1.1;
+    transition: 500ms;
+}
+.fa-ellipsis{
+    font-size: 2rem;
+    color: #a7a7a7;
+}
+.fa-ellipsis:hover{
+    color: #fff;
+    transition: 700ms;
+}
+.popular-artist-songs h2{
+    font-size: 1.4rem;
+}
+.artist-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+.popular-artist-songs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.songs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 10px;
+}
+.indication{
+    display: flex;
+    margin-right: 60px;
+    padding: 10px;
+}
+.fa-circle-plus{
+    color: #a7a7a7;
+    font-size: 1.1rem;
+}
+.fa-circle-plus:hover{
+    color: #fff;
+    transition: 500ms;
+}
+.about-artist{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+.description{
+    margin-top: 50px;
+    display: flex;
+    padding: 10px;
 }
