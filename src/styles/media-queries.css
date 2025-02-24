@@ -7,6 +7,17 @@
   .offer__list-item {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .play .fa-play {
+    position: absolute;
+    right: -10px;
+    top: 110px;
+    padding: 22px;
+    background-color: #1db954;
+    border-radius: 100%;
+    font-size: 14px;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
 }
 /* galaxy Fold2 */
 @media screen and (max-width: 884px){
@@ -46,6 +57,17 @@
     width: 245px;
     height: 220px;
   }
+  .play .fa-play {
+    position: absolute;
+    right: -10px;
+    top: 110px;
+    padding: 22px;
+    background-color: #1db954;
+    border-radius: 100%;
+    font-size: 14px;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
   .footer{
     display: flex;
     flex-wrap: wrap;
@@ -78,6 +100,17 @@
   .main-container{
     max-width: 800px;
     margin-left: 320px;  
+  }
+  .play .fa-play {
+    position: absolute;
+    right: -10px;
+    top: 110px;
+    padding: 22px;
+    background-color: #1db954;
+    border-radius: 100%;
+    font-size: 14px;
+    opacity: 0;
+    transition: all ease 0.4s;
   }
 }
 /* ipad Air 4 */
@@ -122,6 +155,7 @@
     width: 212px;
     height: 190px;
   }
+
   .footer{
     display: flex;
     flex-wrap: wrap;
@@ -268,6 +302,9 @@
     display: none;
   }
   .sidebar{
+    display: none;
+  }
+  .playlist-container{
     display: none;
   }
   footer{

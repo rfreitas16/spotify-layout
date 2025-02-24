@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="shortcut icon" href="./src/assets/icons/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/styles/main-artist.css">
+    <link rel="stylesheet" href="./src/styles/media-queries.css">
+    <link rel="stylesheet" href="./src/styles/media-queries-mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header>        
+        <div class="logo">
+            <a href="">
+                <span class="fa-brands fa-spotify" title="Spotify"></span>
+            </a>
+        </div>
+        <nav class="header__navigation">
+            <div class="home">
+                <a href="/index.html"><span class="fa-solid fa-house" title="Home"></span></a>
+            </div>
+            <div class="header__search">
+                <span class="fa-solid fa-magnifying-glass" title="Buscar"></span>
+                <input id="search-input" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false"
+                    placeholder="O que você quer ouvir?" value="" />
+                <span class="fa-regular fa-folder-open" title="Navegar"></span>
+
+            </div>
+            <div class="links">
+                <a href="">Premium</a>
+                <a href="">Suporte</a>
+                <a href="" class="down-hidden">Baixar</a>
+            </div>
+            <div class="download">
+                <button class="download__app">
+                    <span class="fa-solid fa-download"></span>
+                    <span>Baixar App</span>
+                </button>
+            </div>
+            <div class="header__login">
+                <button class="subscribe">Inscreva-se</button>
+                <button class="login">Entrar</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="sidebar">
+        <div class="library">
+            <div class="library__content">
+                <button class="library__button" title="ocultar playlists">
+                    <span class="fa-solid fa-list"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="fa fa-plus" title="Criar playlist"></span>
+            </div>
+            <div class="playlist-content">
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text subtitle">É fácil, vamos te ajudar.</span>
+                    <button class="section-playlist__button">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+            <section class="section-podcast">
+                <div class="section-podcast__content">
+                    <span class="text title">Que tal seguir um podcast novo?</span>
+                    <span class="text subtitle">Avisamos sobre novos episodios</span>
+                    <button class="section-podcast__button">
+                        <span>Explore podcasts</span>
+                    </button>
+                </div>
+            </section>
+            </div>
+            <div class="cookies">
+                <a href="">Cookies</a>
+                <a href="">Legal</a>
+                <a href="">Seguranca e centro de privacidade</a>
+                <a href="">Politica de privacidade</a>
+                <a href="">Sobre anuncios</a>
+                <a href="">Acessibilidade</a>
+            </div>
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="main-container">
+            <div class="artist-banner" id="artist-banner">
+                <img src="./src/assets/artist-icons/ab67618600000194843651d57d42aca72ce77570.webp" alt="">
+            
+                <div class="artist-name" id="artist-name">
+                    <h2>Artista verificado</h2>
+                    <span class="artist-name" id="artist-name"
+                    style="font-size: 5rem;color:#fff;"></span>
+                    <span class="counter">9.870.773 ouvintes mensais</span>
+                </div>
+            </div>
+            <div class="medias">
+                <span class="fa fa-solid fa-play"></span>
+                <button class="follow">Seguir</button>
+                <span class="fa-solid fa-ellipsis"></span>
+            </div>
+            <div class="popular-artist-songs">
+                <h2 class="populars">Populares</h2>
+                <div class="songs">
+                    <p>1</p>
+                    <img src="" alt="imagem da track">
+                    <a href="" class="track-name">Slowdown</a>
+                    <span>330.635.219</span>
+                    <span class="fa-solid fa-circle-plus hidden"></span>
+                    <span class="track-time">3:01</span>
+                    <span class="fa-solid fa-ellipsis hidden"></span>
+                </div>
+                <div class="artist-indication">
+                    <h2>Escolha do Artista</h2>
+                    <div class="recomendation">
+                        <div class="out-img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="marketing">
+                            <img src="" alt="">
+                            <p class="publicity">She The Last One is OUT NOW</p>
+                        </div>
+                        <div class="track-name">
+                            <a href="">She The Last One</a>
+                            <p>Single</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discografy">
+
+            </div>
+            <div class="with-artist">
+
+            </div>
+            <div class="tour">
+
+            </div>
+            <div class="about-artist">
+                <img src="" alt="">
+                <p>Vintage Culture has risen to international stardom through songwriting, studio productions, and charismatic stage presence. Already a household name in his homeland of Brazil, 2023 saw Vintage Culture debut his new residency Born Of Music Addiction at Hï Ibiza throughout the summer, alongside electrifying sets at festivals including Coachella, Burning Man, Exit Festival, Tomorrowland, Time Warp, and Elrow, as well as the hugely successful launch of his festival Vintage Is A Festival. 2024 has already proven to be an immense year for the DJ and producer. In addition to the forthcoming release of his long-awaited, debut album Promised Land - his most prolific body of work to date - the Brazilian sensation will be taking the stage at various notable festivals and clubs around the world, including EDC Las Vegas, XS Nightclub, Docklands Festival, and more, as well as kicking off his 2024 Hi Ïbiza summer residency, which will take place
+                every Wednesday on the island from June 05 through October 02, 2024.</p>
+            </div>
+            <div class="about-artist-complete hidden">
+                <img src="" alt="">
+                <div class="sidebar-artist">
+
+                </div>
+                <div class="description">
+                    <p></p>
+                    <img src="" alt=""><p>postador por {artist-name}</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="banner-footer">
+        <div class="text">
+                <p class="banner-footer__title">Testar o Premium de graça</p>
+                <p class="banner-footer__subtitle">
+                Inscreva-se para curtir música ilimitada e podcasts só com alguns
+                anúncios. Não precisa de cartão de crédito.
+                </p>
+            </div>
+            <div class="button">
+            <button type="button">Inscreva-se grátis</button>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>

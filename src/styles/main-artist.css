@@ -1,0 +1,15 @@
+.main-container{
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 420px;
+    margin-right: 10px;
+    color: #fff;
+}
+.artist-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-shrink: 1;
+    flex-grow: 1;
+
+}

@@ -69,6 +69,7 @@
   font-weight: 700;
 }
 
+
 /* COLOR CARDS */
 .card1 {
   background-color: rgb(0, 100, 80);
@@ -117,13 +118,24 @@
 }
 /* FIM COLOR CARDS */
 
-.offer__list-item img {
-  position: absolute;
+/* .categorys{
+    position: absolute;
   right: 0;
   bottom: 0;
   height: auto;
   width: 107px;
   transform: rotate(25deg) translate(18%, -2%);
+} */
+.offer__list-item img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: auto;
+  width: 220px;
+}
+/* CARDS POPULAR ARTISTS */
+.popular-title{
+  color: #fff;
 }
 
 /* CARD ARTISTA */
@@ -206,8 +218,8 @@
 .play .fa-play {
   position: absolute;
   right: 10px;
-  top: 120px;
-  padding: 18px;
+  top: 220px;
+  padding: 22px;
   background-color: #1db954;
   border-radius: 100%;
   font-size: 14px;
